@@ -1,0 +1,8 @@
+{
+  "name": "Hostel Complaint & Maintenance System",
+  "description": "Campus hostel maintenance and complaint tracking system for students, rectors, maintenance staff, and administrators.",
+  "prompt": "Hostel Complaint Management System (HCMS)",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

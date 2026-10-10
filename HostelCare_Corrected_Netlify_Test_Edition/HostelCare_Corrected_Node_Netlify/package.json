@@ -1,0 +1,24 @@
+{
+  "name": "hostelcare-corrected-netlify-pilot",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env server.js",
+    "start": "node server.js",
+    "build": "node scripts/build-static.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "serverless-http": "^3.2.0",
+    "@netlify/functions": "^3.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
